@@ -1,3 +1,5 @@
+const Dice = require("./Dice");
+
 class DiceParser {
 	static parseDice(args) {
 			if (args.length < 3) {
